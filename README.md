@@ -1,7 +1,9 @@
 # Anomalydetection
 
 # Interface
-  - run(List, alpha=0.04) function is the main entry point and is expecting a  ordered List[Any,Numeric] I.E ['2018-01-02',124]
+  - run(Data, alpha=0.04) function is the main entry point 
+  
+  - Data =>  Ordered List[Any,Numeric] I.E ['2018-01-02',124]
 
 > Alpha parameter can be altered to have more or less confidence (bigger alpha = bigger > > >confidence so more anomalies )
 >In the current code is rendering a file with the graph and the anomaly point with markers, >this can be removed if the idea is to use from outside.
